@@ -16,10 +16,10 @@ To add a new movie for display on the web page, instantiate a new movie variable
 For example:
 ```
 stranger_than_fiction = media.Movie(
-    "Stranger than Fiction",
-    "An average IRS agent Harold Crick finds himself in a narrated, parallel reality of novelist Kay's latest fictional work",
-    "https://daveexaminesmovies.files.wordpress.com/2013/06/strangerfictionposter.jpg?w=849",
-    "https://www.youtube.com/watch?v=7dnbt5cuunc")
+    movie_title="Stranger than Fiction",
+    movie_storyline="An average IRS agent Harold Crick finds himself in a narrated, parallel reality of novelist Kay's latest fictional work",
+    poster_image="https://daveexaminesmovies.files.wordpress.com/2013/06/strangerfictionposter.jpg?w=849",
+    trailer_youtube="https://www.youtube.com/watch?v=7dnbt5cuunc")
 .
 .
 .
