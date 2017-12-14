@@ -3,9 +3,9 @@ This ia a library for generating an html page of a collection of movie posters, 
 
 
 ## How to Run
-
+```
  $ python entertainment_center.py
-
+```
 
 ## Adding Movies
 
