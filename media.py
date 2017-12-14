@@ -1,5 +1,6 @@
 """
-This module holds the class data structure for a Movie object. Based on a tutorial from Udacity's Full Stack Development course
+This module holds the class data structure for a Movie object.
+Based on a tutorial from Udacity's Full Stack Development course.
 """
 
 
@@ -17,7 +18,12 @@ class Movie(object):
         trailer_youtube_url (str): url path or link to the movie's trailer on YouTube
     """
 
-    def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+    def __init__(self,
+                 movie_title,
+                 movie_storyline,
+                 poster_image,
+                 trailer_youtube):
+
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
