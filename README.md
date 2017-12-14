@@ -6,6 +6,9 @@ This ia a library for generating an html page of a collection of movie posters, 
 ```
  $ python entertainment_center.py
 ```
+### Sample movie web page
+
+Render fresh_tomatoes.html
 
 ## Adding Movies
 
