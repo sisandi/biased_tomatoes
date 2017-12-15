@@ -15,7 +15,8 @@ class Movie(object):
         title (str): Title of the movie e.g. Forrest Gump
         storyline (str): Short synopsis of the movie
         poster_image_url (str): url path or link to the movie poster art
-        trailer_youtube_url (str): url path or link to the movie's trailer on YouTube
+        trailer_youtube_url (str): url path or link to the movie's 
+        trailer on YouTube
     """
 
     def __init__(self,
@@ -36,4 +37,4 @@ class Movie(object):
         """Opens and plays movie's trailer video"""
 
         webbrowser.open(self.trailer_youtube_url)
-
+        
