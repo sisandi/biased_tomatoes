@@ -37,3 +37,4 @@ class Movie(object):
         """Opens and plays movie's trailer video"""
 
         webbrowser.open(self.trailer_youtube_url)
+        
